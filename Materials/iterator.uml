@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>eg.edu.alexu.csd.oop.game.Control.iterator</OriginalElement>
+  <nodes>
+    <node x="59.75" y="0.0">eg.edu.alexu.csd.oop.game.Control.iterator.Iterator</node>
+    <node x="47.25" y="222.0">eg.edu.alexu.csd.oop.game.Control.iterator.MyIterator</node>
+    <node x="0.0" y="122.0">eg.edu.alexu.csd.oop.game.Control.iterator.StartIterator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="eg.edu.alexu.csd.oop.game.Control.iterator.StartIterator" target="eg.edu.alexu.csd.oop.game.Control.iterator.Iterator">
+      <point x="0.0" y="-25.0" />
+      <point x="84.0" y="97.0" />
+      <point x="95.5" y="97.0" />
+      <point x="-35.75" y="36.0" />
+    </edge>
+    <edge source="eg.edu.alexu.csd.oop.game.Control.iterator.MyIterator" target="eg.edu.alexu.csd.oop.game.Control.iterator.StartIterator">
+      <point x="-42.0" y="-25.0" />
+      <point x="89.25" y="197.0" />
+      <point x="84.0" y="197.0" />
+      <point x="0.0" y="25.0" />
+    </edge>
+    <edge source="eg.edu.alexu.csd.oop.game.Control.iterator.MyIterator" target="eg.edu.alexu.csd.oop.game.Control.iterator.Iterator">
+      <point x="42.0" y="-25.0" />
+      <point x="173.25" y="197.0" />
+      <point x="178.5" y="197.0" />
+      <point x="178.5" y="97.0" />
+      <point x="167.0" y="97.0" />
+      <point x="35.75" y="36.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="-124.0" y="4.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

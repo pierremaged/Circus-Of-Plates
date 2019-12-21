@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>eg.edu.alexu.csd.oop.game.Control.Snapshot</OriginalElement>
+  <nodes>
+    <node x="121.87500000000001" y="0.0">eg.edu.alexu.csd.oop.game.Control.Snapshot.Memento</node>
+    <node x="201.0" y="133.0">eg.edu.alexu.csd.oop.game.Control.Snapshot.Originator</node>
+    <node x="0.0" y="100.0">eg.edu.alexu.csd.oop.game.Control.Snapshot.CareTaker</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="eg.edu.alexu.csd.oop.game.Control.Snapshot.CareTaker" target="eg.edu.alexu.csd.oop.game.Control.Snapshot.Memento">
+      <point x="45.25" y="-80.0" />
+      <point x="135.75" y="80.0" />
+      <point x="184.875" y="80.0" />
+      <point x="-21.0" y="25.0" />
+    </edge>
+    <edge source="eg.edu.alexu.csd.oop.game.Control.Snapshot.Originator" target="eg.edu.alexu.csd.oop.game.Control.Snapshot.Memento">
+      <point x="75.0" y="-47.0" />
+      <point x="426.0" y="70.0" />
+      <point x="268.875" y="70.0" />
+      <point x="63.0" y="25.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="-134.5" y="127.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

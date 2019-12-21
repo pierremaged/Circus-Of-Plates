@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>eg.edu.alexu.csd.oop.game.Model.strategy</OriginalElement>
+  <nodes>
+    <node x="0.0" y="232.0">eg.edu.alexu.csd.oop.game.Model.strategy.Medium</node>
+    <node x="193.0" y="232.0">eg.edu.alexu.csd.oop.game.Model.strategy.Hard</node>
+    <node x="193.0" y="0.0">eg.edu.alexu.csd.oop.game.Model.strategy.Strategy</node>
+    <node x="386.0" y="232.0">eg.edu.alexu.csd.oop.game.Model.strategy.Easy</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="eg.edu.alexu.csd.oop.game.Model.strategy.Medium" target="eg.edu.alexu.csd.oop.game.Model.strategy.Strategy">
+      <point x="0.0" y="-91.0" />
+      <point x="86.5" y="207.0" />
+      <point x="221.83333333333334" y="207.0" />
+      <point x="-57.66666666666666" y="91.0" />
+    </edge>
+    <edge source="eg.edu.alexu.csd.oop.game.Model.strategy.Easy" target="eg.edu.alexu.csd.oop.game.Model.strategy.Strategy">
+      <point x="0.0" y="-91.0" />
+      <point x="472.5" y="207.0" />
+      <point x="337.16666666666663" y="207.0" />
+      <point x="57.66666666666663" y="91.0" />
+    </edge>
+    <edge source="eg.edu.alexu.csd.oop.game.Model.strategy.Hard" target="eg.edu.alexu.csd.oop.game.Model.strategy.Strategy">
+      <point x="0.0" y="-91.0" />
+      <point x="0.0" y="91.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="-54.5" y="147.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

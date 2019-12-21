@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>eg.edu.alexu.csd.oop.game.Model.state.State</OriginalElement>
+  <nodes>
+    <node x="83.0" y="0.0">eg.edu.alexu.csd.oop.game.Model.state.State</node>
+    <node x="27.5" y="310.0">eg.edu.alexu.csd.oop.game.Control.pool.Pool</node>
+    <node x="0.0" y="166.0">eg.edu.alexu.csd.oop.game.Model.flyweight.FlyWeight</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="eg.edu.alexu.csd.oop.game.Model.flyweight.FlyWeight" target="eg.edu.alexu.csd.oop.game.Model.state.State">
+      <point x="0.0" y="-47.0" />
+      <point x="0.0" y="58.0" />
+    </edge>
+    <edge source="eg.edu.alexu.csd.oop.game.Control.pool.Pool" target="eg.edu.alexu.csd.oop.game.Model.flyweight.FlyWeight">
+      <point x="0.0" y="-91.0" />
+      <point x="0.0" y="47.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="-152.0" y="225.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

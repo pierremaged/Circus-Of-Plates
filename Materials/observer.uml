@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>eg.edu.alexu.csd.oop.game.Control.observer</OriginalElement>
+  <nodes>
+    <node x="0.0" y="122.0">eg.edu.alexu.csd.oop.game.Control.observer.ScoreCalculator</node>
+    <node x="353.0" y="122.0">eg.edu.alexu.csd.oop.game.Control.observer.Sound</node>
+    <node x="505.0" y="100.0">eg.edu.alexu.csd.oop.game.Control.observer.PlatesControler</node>
+    <node x="171.0" y="111.0">eg.edu.alexu.csd.oop.game.Control.observer.LogManager</node>
+    <node x="353.0" y="0.0">eg.edu.alexu.csd.oop.game.Control.observer.Observer</node>
+    <node x="676.0" y="122.0">eg.edu.alexu.csd.oop.game.Control.observer.TimeCalculator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="eg.edu.alexu.csd.oop.game.Control.observer.Sound" target="eg.edu.alexu.csd.oop.game.Control.observer.Observer">
+      <point x="0.0" y="-25.0" />
+      <point x="0.0" y="25.0" />
+    </edge>
+    <edge source="eg.edu.alexu.csd.oop.game.Control.observer.LogManager" target="eg.edu.alexu.csd.oop.game.Control.observer.Observer">
+      <point x="0.0" y="-36.0" />
+      <point x="252.0" y="80.0" />
+      <point x="392.6" y="80.0" />
+      <point x="-26.399999999999977" y="25.0" />
+    </edge>
+    <edge source="eg.edu.alexu.csd.oop.game.Control.observer.ScoreCalculator" target="eg.edu.alexu.csd.oop.game.Control.observer.Observer">
+      <point x="0.0" y="-25.0" />
+      <point x="75.5" y="70.0" />
+      <point x="366.2" y="70.0" />
+      <point x="-52.80000000000001" y="25.0" />
+    </edge>
+    <edge source="eg.edu.alexu.csd.oop.game.Control.observer.PlatesControler" target="eg.edu.alexu.csd.oop.game.Control.observer.Observer">
+      <point x="0.0" y="-47.0" />
+      <point x="580.5" y="80.0" />
+      <point x="445.4" y="80.0" />
+      <point x="26.399999999999977" y="25.0" />
+    </edge>
+    <edge source="eg.edu.alexu.csd.oop.game.Control.observer.TimeCalculator" target="eg.edu.alexu.csd.oop.game.Control.observer.Observer">
+      <point x="0.0" y="-25.0" />
+      <point x="748.0" y="70.0" />
+      <point x="471.8" y="70.0" />
+      <point x="52.80000000000001" y="25.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="178.5" y="-31.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

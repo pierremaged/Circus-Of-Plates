@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>eg.edu.alexu.csd.oop.game.Control.World.Circus</OriginalElement>
+  <nodes>
+    <node x="303.0" y="122.0">eg.edu.alexu.csd.oop.game.Control.World.Circus</node>
+    <node x="210.0" y="0.0">eg.edu.alexu.csd.oop.game.Control.DynamicLinkage.DynamicLoading</node>
+    <node x="0.0" y="474.0">eg.edu.alexu.csd.oop.game.Model.flyweight.FlyWeight</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="eg.edu.alexu.csd.oop.game.Model.flyweight.FlyWeight" target="eg.edu.alexu.csd.oop.game.Control.DynamicLinkage.DynamicLoading">
+      <point x="0.0" y="-47.0" />
+      <point x="141.5" y="97.0" />
+      <point x="250.75" y="97.0" />
+      <point x="-40.75" y="36.0" />
+    </edge>
+    <edge source="eg.edu.alexu.csd.oop.game.Control.World.Circus" target="eg.edu.alexu.csd.oop.game.Control.DynamicLinkage.DynamicLoading">
+      <point x="0.0" y="-399.0" />
+      <point x="441.5" y="97.0" />
+      <point x="332.25" y="97.0" />
+      <point x="40.75" y="36.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="-47.5" y="247.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

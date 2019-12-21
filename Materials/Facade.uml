@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>eg.edu.alexu.csd.oop.game.Control.World</OriginalElement>
+  <nodes>
+    <node x="0.0" y="144.0">eg.edu.alexu.csd.oop.game.Control.World.Facade</node>
+    <node x="104.83333333333337" y="420.0">eg.edu.alexu.csd.oop.game.Control.World.Circus</node>
+    <node x="195.73958333333337" y="0.0">eg.edu.alexu.csd.oop.game.Control.World.IFacade</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="eg.edu.alexu.csd.oop.game.Control.World.Circus" target="eg.edu.alexu.csd.oop.game.Control.World.IFacade">
+      <point x="103.875" y="-399.0" />
+      <point x="347.20833333333337" y="395.0" />
+      <point x="375.5" y="395.0" />
+      <point x="375.5" y="119.0" />
+      <point x="320.23958333333337" y="119.0" />
+      <point x="41.5" y="47.0" />
+    </edge>
+    <edge source="eg.edu.alexu.csd.oop.game.Control.World.Circus" target="eg.edu.alexu.csd.oop.game.Control.World.Facade">
+      <point x="-103.875" y="-399.0" />
+      <point x="139.45833333333337" y="395.0" />
+      <point x="60.833333333333314" y="395.0" />
+      <point x="-121.66666666666667" y="113.0" />
+    </edge>
+    <edge source="eg.edu.alexu.csd.oop.game.Control.World.Facade" target="eg.edu.alexu.csd.oop.game.Control.World.IFacade">
+      <point x="0.0" y="-113.0" />
+      <point x="182.5" y="119.0" />
+      <point x="237.23958333333337" y="119.0" />
+      <point x="-41.5" y="47.0" />
+    </edge>
+    <edge source="eg.edu.alexu.csd.oop.game.Control.World.Facade" target="eg.edu.alexu.csd.oop.game.Control.World.Circus">
+      <point x="0.0" y="113.0" />
+      <point x="182.5" y="395.0" />
+      <point x="208.70833333333337" y="395.0" />
+      <point x="-34.625" y="-399.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5436187399030694" x="425.5393759286776" y="507.94353640416057" />
+  <SelectedNodes>
+    <node>eg.edu.alexu.csd.oop.game.Control.World.IFacade</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
