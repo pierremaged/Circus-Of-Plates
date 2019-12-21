@@ -1,6 +1,7 @@
 /.idea/
 /bin/
 /out/
-/.project/
-/.classpath/
+/.project
+/.classpath
 /circus-of-plates.iml
+/ToBeJar/

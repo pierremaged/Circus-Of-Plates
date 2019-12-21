@@ -5,6 +5,7 @@ import java.net.URL;
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
+import javax.sound.sampled.FloatControl;
 
 public class Sound {
 
@@ -83,6 +84,8 @@ public class Sound {
             AudioInputStream audioIn = AudioSystem.getAudioInputStream(url);
             Clip boom = AudioSystem.getClip();
             boom.open(audioIn);
+            FloatControl gainControl = (FloatControl) boom.getControl(FloatControl.Type.MASTER_GAIN);
+            gainControl.setValue((float) +6.0206);
             boom.start();
         } catch (Exception e) {
             e.printStackTrace();
