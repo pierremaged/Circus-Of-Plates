@@ -8,8 +8,8 @@ abstract class Command {
     JMenuBar menuBar;
 
     Command(ScreenResolution resolution, JMenuBar menuBar) {
-        this.resolution = resolution;
-        this.menuBar = menuBar;
+         this.resolution = resolution;
+         this.menuBar = menuBar;
     }
     public abstract void generate();
 }
