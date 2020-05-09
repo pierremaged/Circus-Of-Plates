@@ -3,7 +3,6 @@ import eg.edu.alexu.csd.oop.game.ScreenResolution;
 
 class Main {
     public static void main(String[] args) {
-
         ScreenResolution resolution = new ScreenResolution();
         Mainmenu mainMenu = new Mainmenu(resolution);
         mainMenu.start();
